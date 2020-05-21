@@ -1,0 +1,86 @@
+testy były generowane za pomocą pliku test.py
+
+
+#################################
+słowa średnio odległe od korzenia
+@@ plik lotr.txt:
+bst
+Total time: 0.0004124641418457031s
+find comparision: 32
+
+rbt
+Total time: 0.0003056526184082031s
+find comparision: 12
+
+hmap
+Total time: 0.0002346038818359375s
+find comparision: 10
+
+
+@@ plik dict.txt:
+bst
+-
+
+rbt
+Total time: 0.00019121170043945312s
+find comparision: 13
+
+hmap
+Total time: 0.00024890899658203125s
+find comparision: 56
+
+#################################
+słowa bliske korzeniowi:
+@@ plik lotr.txt:
+bst
+Total time: 0.0003535747528076172s
+find comparision: 35
+
+rbt
+Total time: 0.0002353191375732422s
+find comparision: 11
+
+hmap
+Total time: 0.0002105236053466797s
+find comparision: 7
+
+
+@@ plik dict.txt:
+bst
+-
+
+rbt
+Total time: 0.0001678466796875s
+find comparision: 11
+
+hmap
+Total time: 0.0002105236053466797s
+find comparision: 36
+
+#################################
+słowa  oddalone od korzenia:
+@@ plik lotr.txt:
+bst
+Total time: 0.000720977783203125s
+find comparision: 69
+
+rbt
+Total time: 0.0002319812774658203s
+find comparision: 12
+
+hmap
+Total time: 0.00022149085998535156s
+find comparision: 13
+
+
+@@ plik dict.txt:
+bst
+-
+
+rbt
+Total time: 0.00016736984252929688s
+find comparision: 13
+
+hmap
+Total time: 0.00020122528076171875s
+find comparision: 64
